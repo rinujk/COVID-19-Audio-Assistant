@@ -4,12 +4,12 @@ In this project, we have used ParseHub for web scraping purpose. ParseHub is a p
 https://www.parsehub.com/docs/ref/api/v2/
 
 The detailed web scraping process with ParseHub is as follows.
-•	Open ParseHub and select the option for a new project. 
+1. Open ParseHub and select the option for a new project. 
  
-•	In the space provided for pasting the website URL, paste the link to the Worldometers website.	(https://www.worldometers.info/coronavirus/)
-•	Click select the data that needs to be scraped from the website. It is possible to use the relative selection tool to connect different data. 
+2. In the space provided for pasting the website URL, paste the link to the Worldometers website.	(https://www.worldometers.info/coronavirus/)
+3.	Click select the data that needs to be scraped from the website. It is possible to use the relative selection tool to connect different data. 
  
-•	After selecting data, click 'Get Data' to retrieve it, after which the API key, Project token, and Run token is generated. These tokens are used while running the python code.
+4. After selecting data, click 'Get Data' to retrieve it, after which the API key, Project token, and Run token is generated. These tokens are used to extract covid-19 related data from the website.
  
 Implementation
 1. Import the necessary libraries
